@@ -282,17 +282,11 @@ var endn =friend.splice(11,11,"Srilatha");
 console.log(friend);
 
 //Add Mr or Ms to the names in the friends array.
-
-
 for(let i=0;i<=10;i++){
   friend[i]="Mr "+friend[i];
   console.log(friend[i]);
   console.log("Ms " +friend[11]);
-
 }
-
-
-
 // Find the friends names who has letter ‘a’ and return the list.
 for(i=0;i<friend.length;i++){
   if(friend[i].includes("a")){
@@ -315,7 +309,6 @@ for(i=0;i<friend.length;i++){
   }
   }
 
-
 // Find the name with max characters and return the name.
 // Find the name with min characters and return the name.
 
@@ -327,47 +320,9 @@ console.log(maxmin,friend[i]);
 console.log(friend[2]);
 console.log(friend[3]);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 //Add a new key value pair to myobject
- /*var myobject = {1:"one",11:1,name:"arun"}
-
+ var myobject = {1:"one",11:1,name:"arun"}
  myobject.ten = "ten"
-
  console.log(myobject)
 
 //Write out an object literal to represent the data below.
@@ -381,11 +336,6 @@ let address=[{GuviGeek: "6, IIT-M RP,Chennai"},
 {AmazonInc:"31 SP Infocity, Chennai"},
 {GoogleAlphabet: "34 Amphitheater Parkway, MountainView"},
 {TeslaInc: "32, 333 Santana Row,San Jose.76"}]
-console.log(`address: ${address[0].GuviGeek}`);*/
-
- 
-
-
-
+console.log(`address: ${address[0].GuviGeek}`);
 
 
